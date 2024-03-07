@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    padding: 0; /* Remover o padding */
+    margin: 0; /* Remover margens */
+    width: 100%; /* Largura de 100% */
+    height: 100vh; /* Altura da viewport */
+    overflow: hidden; /* Ocultar overflow */
+    border: 300px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    padding: 10px; /* Espaçamento interno */
+    width: 1000px;
+    border-radius: 50px; /* Adiciona bordas redondas */
+    border: 300px; /* Não é necessário esse trecho */
+}
+
+
+.link-box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 187, 187);
+    background-color: black;
+    text-align: center;
+    border: 40px solid black;
+    border-radius: 40px;
+    width: 540px;
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento entre os links */
+}
+
+.link-box:hover {
+    background-color: rgb(197, 248, 42);
+    border: 40px solid rgb(197, 248, 42);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-radius: 70px;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(197, 248, 42);
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.titulo-pequeno {
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+p {
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foto {
+    width: 300px;
+    height: auto;
+}
